@@ -13,6 +13,8 @@ public class NoteDto {
     private String title;
     private String content;
 
+
+
     public static List<NoteDto> from(Iterable<Note> notes){
         List<NoteDto> result = new ArrayList<>();
 
